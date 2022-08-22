@@ -25,6 +25,9 @@ body {
   --destacado: #ffcb32;
   --green: #25D366;
   --green-zap: #339966;
+  --douradoDoEscritorio1: #D5C79A;
+  --douradoDoEscritorio2: #8C875D;
+  --substitutoDoBlack: #1b203b;
 }
 
 header {
@@ -107,7 +110,7 @@ header .menu {
   height: 80vh;
   width: 100vw;
   position:relative;
-  background-color: #303455;
+  background-color: var(--douradoDoEscritorio2);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -126,7 +129,7 @@ header .menu {
 .flex-container5 {
   height: 60vh;
   width: 100vw;
-  background-color: white;
+  background-color: var(--substitutoDoBlack);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -136,7 +139,7 @@ header .menu {
  
     height: 18vh;
     width: 100vw;
-    background-color: #303455;
+    background-color: var(--douradoDoEscritorio2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,7 +230,7 @@ header .menu {
   position: absolute;
   top: 50%;
   left: 45%;
-  color: black;
+  color: var(--substitutoDoBlack);
   font-size: 1.4rem;
   font-weight: 700;
   font-family: var(--font-section1h1);
@@ -251,7 +254,7 @@ header .menu {
   transition: all 0.5s;
 }
 
-/* Section 2 */
+/* Section2 */
 
 .beneficiosHeadline {
   margin-top: 70px;
@@ -280,10 +283,15 @@ header .menu {
   margin-left: 20px;
 }
 
+.coluna-40 .beneficiosHeadline {
+  font-size: 2em;
+}
+
 .checkImg {
   position: relative;
   align-items: center;
   width: 300px;
+  height: auto;
 }
 
 .nomes {
@@ -399,7 +407,7 @@ header .menu {
 
 .indicado {
 
-  color: black;
+  color: white;
   font-family: var(--font-section1h1);
   font-size: 2.7em;
   margin-right: 0.3em;
@@ -408,7 +416,7 @@ header .menu {
 }
 
 .section5 span {
-  color: black;
+  color: white;
   font-family: var(--font-section1h1);
   font-size: 1.2em;
   font-weight: 500;
@@ -417,9 +425,10 @@ header .menu {
 
 
 
+
 .btn2 {
   position: relative;
-  color: black;
+  color: white;
   font-size: 1.4rem;
   font-weight: 700;
   font-family: var(--font-section1h1);
@@ -428,7 +437,7 @@ header .menu {
   text-align: center;
   background-color: var(--green);
   border-radius: 50px;
-  border: 2px solid var(--green);
+  border: 1px solid var(--green-zap);
 
   margin-block: 4rem;
   padding: 0.8em;
@@ -438,6 +447,7 @@ header .menu {
 
 .btn2:hover {
   background-color: #fff;
+  border: 1px solid white;
   color: var(--green-zap);
   cursor: pointer;
   transform: scale(1.1);
@@ -452,7 +462,7 @@ header .menu {
     height: 60vh;
     width: 100vw;
     position:relative;
-    background-color: #303455;
+    background-color: var(--douradoDoEscritorio2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -480,11 +490,11 @@ header .menu {
 
 .fa-2x {
   margin: 10px;
-  color: #898695;
+  color: var(--douradoDoEscritorio1);
 }
 
 .fa-2x:hover {
-  color: var(--green-zap);
+  color: black;
   cursor: pointer;
   transform: scale(1.2);
   transition: all 0.5s;
@@ -513,7 +523,7 @@ header .menu {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #303455;
+  background-color: var(--douradoDoEscritorio2);
 }
 
 .coluna-30 .fa-2x {
