@@ -772,14 +772,14 @@ header .menu {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 1360px)  and (min-width: 800px){
+@media only screen and (max-width: 1360px)  and (min-width: 900px){
 
   .flex-container {
     padding-left: 0;
   }
 
   .headline {
-    font-size: 4em;
+    font-size: 3em;
     padding-left: 1.5em;
     top: 14%
   }
@@ -808,6 +808,80 @@ header .menu {
   }
   .checkImg {
     width: 190px;
+  }
+
+}
+
+@media only screen and (max-width: 980px)  and (min-width: 400px){
+
+  .flex-container {
+    width: 90%;
+    padding-left: 0;
+  }
+
+  .headline {
+    font-size: 3em;
+    padding-left: 1.5em;
+    top: 14%
+  }
+
+  .headline span {
+    left: 16%;
+  }
+
+  .subheadline {
+    left: 13%;
+    top: 29%
+  }
+
+  .btn {
+    top: 45%;
+    left: 40%;
+  }
+
+  .flex-container2 {
+    height: 140vh;
+  }
+
+  .flex-container2 .linha {
+    flex-direction: column-reverse;
+    
+  }
+
+  .beneficiosHeadline{
+    margin-bottom: 10px;
+  }
+
+
+  .coluna-40 {
+    width: 65%;
+    margin-left: 160px;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .beneficiosHeadline {
+    margin-left: 0;
+  }
+
+  .card {
+    width: 120px;
+  }
+
+  .card span {
+    font-size: 0.8em;
+  }
+  .card2 {
+    width: 180px;
+  }
+  .checkImg {
+    width: 190px;
+  }
+
+  .flex-containerFooter  {
+    height: 80vh;
+    flex-direction: column-reverse;
   }
 
 
