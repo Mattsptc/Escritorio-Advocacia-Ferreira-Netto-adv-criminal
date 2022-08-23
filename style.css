@@ -214,18 +214,6 @@ header .menu {
 }
 
 
-.imgSection1 {
-  position: relative;
-  text-align: center;
-}
-.imgSection1 img {
-  align-items: center;
-  justify-content: center;
-  width: 400px;
-  margin-right: 1em;
-}
-
-
 .btn {
   position: absolute;
   top: 50%;
@@ -311,7 +299,6 @@ header .menu {
 .row {
   display: flex;
   justify-content: center;
-  flex-wrap: nowwrap;
   align-content: space-between;
 }
 
@@ -319,8 +306,8 @@ header .menu {
   border-radius: 10px;
   background-color: white;
   box-shadow: 0 7px 13px 7px rgba(226, 224, 224, 0.22);
-  padding: 30px;
-  margin: 30px;
+  padding: 22px;
+  margin: 10px;
   width: 300px;
   transition: all 0.3s ease-out;
   text-align: center;
@@ -331,10 +318,40 @@ header .menu {
   cursor: pointer;
 }
 
-.card p {
+.card span {
+  color: var(--douradoDoEscritorio1);
+  font-family: var(--font-montserrat);
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.card2 {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 7px 13px 7px rgba(226, 224, 224, 0.22);
+  padding: 30px;
+  margin-left: 30px;
+  width: 300px;
+  transition: all 0.3s ease-out;
+  text-align: center;
+}
+
+.card2:hover {
+  transform: translate(-5px);
+  cursor: pointer;
+}
+
+.card2 p {
   color: #000;
   font-size: 0.7em;
 }
+
 
 
 
@@ -501,7 +518,7 @@ header .menu {
 }
 
 .coluna-40margin  {
-  width: 360px;
+  width: 400px;
 }
 
 .coluna-40margin a {
