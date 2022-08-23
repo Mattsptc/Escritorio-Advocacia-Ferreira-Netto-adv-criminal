@@ -771,3 +771,42 @@ header .menu {
   text-decoration: none;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 1360px)  and (min-width: 800px){
+
+  .flex-container {
+    padding-left: 0;
+  }
+
+  .headline {
+    font-size: 4em;
+    padding-left: 1.5em;
+    top: 14%
+  }
+
+  .headline span {
+    left: 16%;
+  }
+
+  .subheadline {
+    left: 13%;
+    top: 37%
+  }
+
+  .beneficiosHeadline {
+    margin-left: 0;
+  }
+  .card {
+    width: 120px;
+  }
+
+  .card span {
+    font-size: 0.8em;
+  }
+  .card2 {
+    width: 180px;
+  }
+  .checkImg {
+    width: 190px;
+  }
+}
