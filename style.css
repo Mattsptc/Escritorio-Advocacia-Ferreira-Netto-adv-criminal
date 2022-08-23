@@ -667,7 +667,7 @@ header .menu {
   font-size: 2em;
   font-family: var(--font-montserrat);
   top: 10%;
-  left: 24%;
+  left: 14%;
 }
 
 .modal-content p {
@@ -698,8 +698,8 @@ header .menu {
 
 .btn3 {
   position: absolute;
-  top: 50%;
-  left: 38%;
+  top: 51%;
+  left: 25%;
   color: black;
   font-size: 1.4rem;
   font-weight: 700;
@@ -727,7 +727,7 @@ header .menu {
 .btn4 {
   position: absolute;
   top: 35%;
-  left: 38%;
+  left: 25%;
   color: black;
   font-size: 1.4rem;
   font-weight: 700;
@@ -809,4 +809,6 @@ header .menu {
   .checkImg {
     width: 190px;
   }
+
+
 }
